@@ -35,7 +35,7 @@ document.querySelector("#calcular").addEventListener("click", function(){
 
     document.querySelector("#resultado").innerHTML=resultado + " - " + clasificacion_peso;
 
-    document.querySelector("#resultado").style.backgroundColor = color;
+    document.querySelector("#calculadora").style.backgroundColor = color;
     
     //document.querySelector("#resultado").innerHTML=imc.toFixed(1) + "-" + clasificacion_peso;
 }); 

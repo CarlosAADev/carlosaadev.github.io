@@ -3,15 +3,17 @@
     padding: 20px;
     border-radius: 20px;
     width: fit-content;
+    color: white;
+    font-weight: bold;
 }
 
 .numerico{
     text-align: right;
 }
-#resultado{
+/*#resultado{
     margin-top: 20px;
     color: white;
     padding: 10px;
     text-align: center;
     border-radius: 20px;
-}
+}*/
