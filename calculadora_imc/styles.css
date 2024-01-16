@@ -8,3 +8,10 @@
 .numerico{
     text-align: right;
 }
+#resultado{
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #474747;
+}
+h1{
+    color: white;
+}
+.listado-proyectos{
+    background-color:#7cacf8;
+    border-radius: 20px;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.proyecto{
+    margin: 20px;
+    color: white;
+}
+.proyecto a{
+    color: #474747;
+    text-decoration: none;
+}
