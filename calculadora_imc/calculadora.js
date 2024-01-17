@@ -33,9 +33,10 @@ document.querySelector("#calcular").addEventListener("click", function () {
         color = "#d4212b";
     }
 
+    document.querySelector("#resultado").style.display = "block";
     document.querySelector("#resultado").innerHTML = resultado + " - " + clasificacion_peso;
 
-    document.querySelector("#calculadora").style.backgroundColor = color;
+    document.querySelector("#resultado").style.backgroundColor = color;
 
     //document.querySelector("#resultado").innerHTML=imc.toFixed(1) + "-" + clasificacion_peso;
 });
