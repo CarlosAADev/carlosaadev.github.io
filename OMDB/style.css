@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+h1{
+    padding: 20px 0px;
+    font-size: 40px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    text-align: center;
+
+}
+.buscador{
+    text-align: center;
+    padding: 20px 10px;
+}
+.contenedor{
+    /* background-color: rgb(251, 174, 174); */
+}
+
+.peliculas{
+    display: flex;
+    justify-content: center;
+}
+.pelicula{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#titulo, #puntuacion, #duracion{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 20px;
+}
+#puntuacion, #duracion{
+    font-size: 30px;
+    font-weight: 300;
+}
+#duracion{
+    font-size: 30px;
+}
+#img-peli{
+    display: none;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    padding: 5px;
+    box-shadow: 5px 5px 20px #757575;
+    background-color: white;
+}
+
