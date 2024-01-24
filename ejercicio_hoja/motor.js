@@ -2,7 +2,7 @@ const hoja = document.querySelector("#hoja");
 const DELTA = 1;
 const DELTA2 = 1;
 
-let left = -100;
+let left = -150;
 let top1 = 100;
 
 let alto_navegador = window.innerHeight;
@@ -28,6 +28,7 @@ function izquierda(){
 setInterval(()=>{
     if(direccionAbajo){
         abajo();
+        hoja.style.transform += "rotate("+DELTA+"deg)";
         if(top1 > alto_navegador-70){
             direccionAbajo = false;
         }
@@ -36,6 +37,7 @@ setInterval(()=>{
         if(top1 <= 0){
             direccionAbajo = true;
         }
+        hoja.style.transform += "rotate("+(-DELTA)+"deg)";
     }
     if(direccionDerecha){
         derecha();
@@ -48,14 +50,12 @@ setInterval(()=>{
             direccionDerecha = true;
         }
     }
-    hoja.style.transform += "rotate("+DELTA+"deg)";
     
     
-    // hoja.style.transform += "rotate("+DELTA+"deg)";
     
 
 
-console-console.log(alto_navegador);}, 10, 1);
+console-console.log(alto_navegador);}, 9, 1);
 
 
 // const MYTIMEOUT = setTimeout(quitarDiv, 3000);
